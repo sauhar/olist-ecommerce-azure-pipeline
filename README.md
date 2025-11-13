@@ -9,7 +9,7 @@ on the <strong>Olist dataset</strong>.
 
 <h2>Architecture</h2>
 <p>
-<strong>GitHub (Raw Data)</strong> → <strong>files.io (MySQL / MongoDB)</strong> → <strong>Azure Data Factory</strong> → 
+<strong>GitHub (Raw Data)</strong> → <strong>filess.io (MySQL / MongoDB)</strong> → <strong>Azure Data Factory</strong> → 
 <strong>Azure Databricks</strong> → <strong>Azure Synapse Analytics</strong>
 </p>
 
@@ -26,7 +26,7 @@ on the <strong>Olist dataset</strong>.
 <h3>Data Sources & Storage</h3>
 <ul>
   <li><strong>Source Repository:</strong> GitHub</li>
-  <li><strong>Database Hosting:</strong> files.io</li>
+  <li><strong>Database Hosting:</strong> filess.io</li>
   <li><strong>Databases:</strong> MySQL, MongoDB</li>
   <li><strong>Languages:</strong> Python, SQL, PySpark</li>
 </ul>
@@ -36,7 +36,7 @@ on the <strong>Olist dataset</strong>.
 <h3>Data Sourcing</h3>
 <ul>
   <li>Fetched raw e-commerce dataset files from <strong>GitHub</strong>.</li>
-  <li>Hosted and structured data in <strong>MySQL</strong> and <strong>MongoDB</strong> via files.io.</li>
+  <li>Hosted and structured data in <strong>MySQL</strong> and <strong>MongoDB</strong> via filess.io.</li>
   <li>Created a hybrid storage architecture combining relational and NoSQL data sources.</li>
 </ul>
 
@@ -70,3 +70,4 @@ on the <strong>Olist dataset</strong>.
 </ul>
 
 <hr>
+
